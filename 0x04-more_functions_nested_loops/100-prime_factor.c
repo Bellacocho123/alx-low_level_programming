@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long prime = 12852475143, divisor;
+	long prime  = 612852475143, divisor;
 
 	while (divisor < (prime / 2))
 	{
