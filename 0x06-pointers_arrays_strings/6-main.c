@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char str[] = "Expect the best. Prepare for the worst.\n
-Capitalize on what comes.\n
-hello world! hello-world 0123456hello world\thello world.hello world\n";
+	char str[] = "Expect the best. Prepare for the worst.\n"
+		"Capitalize on what comes. hello world!\n"
+		 "hello-world 0123456hello world\thello world.hello world\n";
 	char *ptr;
 
 	ptr = cap_string(str);
