@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include <stdlib.h>
+
 /**
  * get_op_func - to selects the right fxn to perform operation
  * @s: the operation passed as argument
