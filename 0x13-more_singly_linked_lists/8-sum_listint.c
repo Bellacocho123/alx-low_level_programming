@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * sum_listint - to returns the sum of all 
@@ -10,13 +10,13 @@
 int sum_listint(listint_t *head)
 {
 	listint_t *temp = head;
-	int sum = 0;
+	int sum_all_data = 0;
 
 	while (temp)
 	{
-		sum += temp->n;
+		sum_all_data += temp->n;
 		temp = temp->next;
 	}
-	return (sum);
+	return (sum_all_data);
 
 }
