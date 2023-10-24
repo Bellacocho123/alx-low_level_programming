@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * sum_listint - to returns the sum of all 
+ * sum_listint - to returns the sum of all
  * the data n linked list.
- * @h: 
+ * @head: first node in the linked list
  * Return: 0 f the list is empty
  */
 
