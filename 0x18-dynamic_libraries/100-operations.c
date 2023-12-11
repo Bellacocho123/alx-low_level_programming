@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "calc.h"
 
 /**
  * add - adds two parameters
